@@ -15,5 +15,5 @@ class Solution:
                 temp.append(l[j])
         
         for i in range(r):
-            ans.append(temp[i*c: (i+1)*c])
+            ans.append(temp[i*c: (i+1)*c]) #MOST VALUABLE STEP IN THE QUESTION
         return ans
