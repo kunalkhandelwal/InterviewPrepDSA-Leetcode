@@ -8,7 +8,8 @@ class Solution:
         for a in nums+[upper+1]:
             if a > lower:
                 ans.append([lower, a-1])        
-            lower = a+1
+            lower = a+1            # We are doing lower = a+1 because we will go to the next: 
+                                    """Input: nums = [0,1,3,50,75], lower = 0, upper = 99  ,  Output: [[2,2],[4,49],[51,74],[76,99]]"""
         return ans
 
 #Sol 0: Beats - 77, 78
